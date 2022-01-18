@@ -18,7 +18,7 @@ export function About() {
         <br /><br />
         Accenten en spaties zijn weggehaald. Van der Sar wordt bijv. 'vandersar',
         Kökcü is 'kokcu' en L'Ami is 'lami'.
-        <br /><br />Vragen, opmerkingen of hints: <a href="https://twitter.com/chordbug">@bartf</a>
+        <br /><br />Vragen, opmerkingen of hints: <a href="https://twitter.com/bartf">@bartf</a>
         <br /><br />Credits voor de data: <a href="https://twitter.com/optajohan">@OptaJohan</a>        
       </p>
       <hr />
