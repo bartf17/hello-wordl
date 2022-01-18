@@ -6,17 +6,17 @@ export function About() {
   return (
     <div className="App-about">
       <p>
-        <i>hello wordl</i> is a remake of the word game{" "}
+        <i>Eredivisie Wordl</i> is een vrij schaamteloze kopie van
+        <i>hello wordl</i>, en dat is weer een remake van {" "}
         <a href="https://www.powerlanguage.co.uk/wordle/">
           <i>Wordle</i>
         </a>{" "}
-        by <a href="https://twitter.com/powerlanguish">powerlanguage</a>, which
-        I think is based on the TV show <i>Lingo</i>.
+        by <a href="https://twitter.com/powerlanguish">powerlanguage</a>..
       </p>
       <p>
-        You get {maxGuesses} tries to guess a target word.
+        Je krijgt {maxGuesses} zes pogingen om de naam van een (voormalige) Eredivisie-speler te raden.
         <br />
-        After each guess, you get Mastermind-style feedback.
+        Namen als 'Van der Sar' schrijf je zonder spaties, dus 'vandersar'.
       </p>
       <hr />
       <Row
