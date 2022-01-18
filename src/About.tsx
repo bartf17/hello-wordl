@@ -6,7 +6,7 @@ export function About() {
   return (
     <div className="App-about">
       <p>
-        <i>Eredivisie wordl</i> is een vrij schaamteloze kopie van<br /> 
+        <i>Eredivisie wordle</i> is een vrij schaamteloze kopie van<br /> 
         <a href="https://hellowordl.net/"><i>hello wordl</i></a>, en dat is weer een remake van{" "}
         <a href="https://www.powerlanguage.co.uk/wordle/">
           <i>Wordle</i>
