@@ -16,7 +16,10 @@ export function About() {
       <p>
         Je hebt {maxGuesses} pogingen om de achternaam van een (voormalige) Eredivisie-speler te raden.
         <br /><br />
-        Spaties zijn weggehaald, dus Van der Sar wordt bijv. 'vandersar'.
+        Accenten en spaties zijn weggehaald. Van der Sar wordt bijv. 'vandersar',<br />
+        Kökcü is 'kokcu' en L'Ami is 'lami'.<br />
+        <br /><br />Vragen, opmerkingen of hints: <a href="https://twitter.com/chordbug">@bartf</a>
+        <br /><br />Credits voor de data: <a href="https://twitter.com/optajohan">@OptaJohan</a>        
       </p>
       <hr />
       <Row
