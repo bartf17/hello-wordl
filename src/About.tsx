@@ -6,13 +6,12 @@ export function About() {
   return (
     <div className="App-about">
       <p>
-        <i>Eredivisie Wordl</i> is een vrij schaamteloze kopie van 
-        <a href="https://hellowordl.net/"><i>hello wordl</i>/a>, en dat is weer een remake van {" "}
+        <i>hello wordl</i> is a remake of the word game{" "}
         <a href="https://www.powerlanguage.co.uk/wordle/">
           <i>Wordle</i>
         </a>{" "}
-        by <a href="https://twitter.com/powerlanguish">powerlanguage</a>..
-      </p>
+        by <a href="https://twitter.com/powerlanguish">powerlanguage</a>, which
+        I think is based on the TV show <i>Lingo</i>.
       <p>
         Je krijgt {maxGuesses} pogingen om de achternaam van een (voormalige) Eredivisie-speler te raden.
         <br /><br />
