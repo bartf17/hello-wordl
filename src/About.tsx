@@ -11,7 +11,7 @@ export function About() {
         <a href="https://www.powerlanguage.co.uk/wordle/">
           <i>Wordle</i>
         </a>{" "}
-        by <a href="https://twitter.com/powerlanguish">powerlanguage</a>.
+        by <a href="https://twitter.com/powerlanguish">powerlanguish</a>.
       </p>
       <p>
         Je hebt {maxGuesses} pogingen om de achternaam van een (voormalige) Eredivisie-speler te raden.
