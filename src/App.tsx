@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="App-container">
       <h1>
-        <span style={hard ? { color: "#e66" } : {}}>Eredivisie</span> wordl
+        <span style={hard ? { color: "#e66" } : {}}>Eredivisie</span> wordle
       </h1>
       <div className="top-right">
         {page !== "game" ? (
