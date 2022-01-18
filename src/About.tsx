@@ -14,7 +14,7 @@ export function About() {
         by <a href="https://twitter.com/powerlanguish">powerlanguage</a>..
       </p>
       <p>
-        Je krijgt {maxGuesses} zes pogingen om de naam van een (voormalige) Eredivisie-speler te raden.
+        Je krijgt {maxGuesses} pogingen om de naam van een (voormalige) Eredivisie-speler te raden.
         <br />
         Namen als 'Van der Sar' schrijf je zonder spaties, dus 'vandersar'.
       </p>
