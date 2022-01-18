@@ -12,10 +12,11 @@ export function About() {
         </a>{" "}
         by <a href="https://twitter.com/powerlanguish">powerlanguage</a>, which
         I think is based on the TV show <i>Lingo</i>.
+      </p>
       <p>
-        Je krijgt {maxGuesses} pogingen om de achternaam van een (voormalige) Eredivisie-speler te raden.
-        <br /><br />
-        Spaties zijn weggehaald, dus Van der Sar wordt bijv. 'vandersar'.<br />
+        You get {maxGuesses} tries to guess a target word.
+        <br />
+        After each guess, you get Mastermind-style feedback.
       </p>
       <hr />
       <Row
