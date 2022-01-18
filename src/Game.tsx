@@ -3,7 +3,7 @@ import { Row, RowState } from "./Row";
 import dictionary from "./dictionary.json";
 import { Clue, clue, describeClue, violation } from "./clue";
 import { Keyboard } from "./Keyboard";
-import targetList from "./targets.json";
+import targets from "./targets.json";
 import { pick, resetRng, seed, speak, urlParam } from "./util";
 import { decode, encode } from "./base64";
 
@@ -18,8 +18,6 @@ interface GameProps {
   hidden: boolean;
   hard: boolean;
 }
-
-const targets = targetList.slice(0, targetList.indexOf("murky") + 1); // Words no rarer than this one
 
 function randomTarget(wordLength: number): string {
   const eligible = targets.filter((word) => word.length === wordLength);
